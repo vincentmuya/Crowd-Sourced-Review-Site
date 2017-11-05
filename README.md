@@ -3,6 +3,11 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+##Descriptions
+An application where users may rate local restaurants, or other areas of interest
+
+##By Vincent Muya
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
