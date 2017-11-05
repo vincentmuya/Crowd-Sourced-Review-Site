@@ -1,4 +1,10 @@
-import Route from '@ember/routing/route';
+import Ember from 'ember';
 
-export default Route.extend({
+export default Ember.Route.extend({
+  model() {
+    return Ember.RSVP.hash({
+      restaurants: this.store.findAll('restaurant'),
+      reviews: this.store.findAll('review')
+    });
+  },
 });
