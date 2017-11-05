@@ -18,6 +18,12 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyC6F4S38iaQeRpQ0KWsKAqMNL55vJX7g2o",
+authDomain: "crowd-sourced-review-sit-39677.firebaseapp.com",
+databaseURL: "https://crowd-sourced-review-sit-39677.firebaseio.com",
+          storageBucket: "",
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
