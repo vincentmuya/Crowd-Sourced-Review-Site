@@ -1,13 +1,15 @@
-<h4>Click to add a restaurants to favorite</h4>
+<h4>Please click the button to add restaurants to the favorite list</h4>
 
 <ul>
   {{#each model.restaurants as |restaurant|}}
-  {{restaurant-tile restaurant=restaurant}}
+    {{restaurant-tile restaurant=restaurant}}
+  {{/each}}
 </ul>
 
-<h3>Favorite Restaurant list:</h3>
+
+<h3>Favorite Restaurant List:</h3>
 
 <ul>
   <li>{{display-list}}</li>
-<br>
+  <br>
 </ul>

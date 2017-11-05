@@ -1,10 +1,9 @@
-/* eslint-env node */
-'use strict';
+/* jshint node: true */
 
 module.exports = function(environment) {
-  let ENV = {
+  var ENV = {
     modulePrefix: 'crowd-sourced-review-site',
-    environment,
+    environment: environment,
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
@@ -20,9 +19,12 @@ module.exports = function(environment) {
 
     firebase: {
       apiKey: "AIzaSyC6F4S38iaQeRpQ0KWsKAqMNL55vJX7g2o",
-authDomain: "crowd-sourced-review-sit-39677.firebaseapp.com",
-databaseURL: "https://crowd-sourced-review-sit-39677.firebaseio.com",
-          storageBucket: "",
+    authDomain: "crowd-sourced-review-sit-39677.firebaseapp.com",
+    databaseURL: "https://crowd-sourced-review-sit-39677.firebaseio.com",
+    projectId: "crowd-sourced-review-sit-39677",
+    storageBucket: "crowd-sourced-review-sit-39677.appspot.com",
+    messagingSenderId: "542553742355"
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
@@ -50,7 +52,7 @@ databaseURL: "https://crowd-sourced-review-sit-39677.firebaseio.com",
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+
   }
 
   return ENV;

@@ -3,7 +3,7 @@
 // export function restaurantPopularity(params/*, hash*/) {
 //   return params;
 // }
-//
+// 
 // export default Ember.Helper.helper(restaurantPopularity);
 
 import Ember from 'ember';
