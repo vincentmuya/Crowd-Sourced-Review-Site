@@ -1,0 +1,10 @@
+<h1>Welcome to Jeffrey's Restaurant Review Site</h1>
+
+  {{#each model.restaurants as |restaurant|}}
+
+    {{restaurant-popularity restaurant}} {{restaurant-tile restaurant=restaurant}}
+  {{/each}}
+
+{{new-restaurant saveRestaurant2="saveRestaurant3"}}
+
+{{display-list}}

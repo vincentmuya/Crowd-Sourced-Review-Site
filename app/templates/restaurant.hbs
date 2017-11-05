@@ -1,0 +1,11 @@
+<h2>{{model.name}}</h2>
+
+{{new-review saveReview="saveReview" restaurant=model}}
+
+<h1>Review</h1>
+<!-- {{restaurant-popularity restaurant}} -->
+<ul>
+  {{#each model.reviews as |review|}}
+    {{review-tile review=review}}
+  {{/each}}
+</ul>
