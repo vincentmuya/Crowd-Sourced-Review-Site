@@ -1,0 +1,7 @@
+<button {{action 'addToFavorite' restaurant}}>Add to Favorites</button>
+
+
+{{#link-to "restaurant" restaurant.id}}
+  <h3>{{heading}}</h3>
+  <p><img src={{restaurant.image}} alt={{restaurant.name}}></p>
+{{/link-to}}

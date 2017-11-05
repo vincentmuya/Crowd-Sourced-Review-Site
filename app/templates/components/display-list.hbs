@@ -1,0 +1,9 @@
+<h3>Favorite Restaurant List</h3>
+<ul>
+  {{#each favoriteList.items as |item|}}
+    <li>
+      {{item.name}} in {{item.district}}
+    </li>
+  {{/each}}
+
+</ul>
