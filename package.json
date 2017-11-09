@@ -40,6 +40,8 @@
     "ember-source": "~2.11.0",
     "ember-welcome-page": "^2.0.2",
     "emberfire": "2.0.6",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.5",
     "loader.js": "^4.0.10"
   },
   "engines": {
