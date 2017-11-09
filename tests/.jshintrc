@@ -1,4 +1,4 @@
-{
+/*{
   "predef": [
     "document",
     "window",
@@ -49,4 +49,4 @@
   "eqnull": true,
   "esversion": 6,
   "unused": true
-}
+}*/
